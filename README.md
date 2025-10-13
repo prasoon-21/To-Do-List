@@ -36,7 +36,7 @@ It allows users to manage daily tasks with features like adding, completing, del
 ---
 
 ## 📸 Demo
-LINK : https://login-page-pkcm.netlify.app/
+LINK : https://doozy-tudu.netlify.app/
 <img width="1919" height="991" alt="Screenshot 2025-10-14 003713" src="https://github.com/user-attachments/assets/c3529da1-6abb-450d-a462-20c2066eccf0" />
 
 ---
