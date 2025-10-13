@@ -1,0 +1,129 @@
+body {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background: linear-gradient(to right, rgb(29, 137, 204), rgba(3, 9, 124, 0.929));
+
+}
+.to-do-list{
+  width: 100%;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #ffffff;
+}
+.input {
+  display: flex;
+  gap: 10px;
+}
+input[type="text"]{
+  font-size: 1.8rem;
+  padding:5px;
+  border:none;
+  border-radius: 8px;
+  color: rgb(1, 7, 13);
+  width: 300px;
+}
+.add-button{
+  background-color: #FFB703;
+  padding: 10px 20px;
+
+
+}
+.add-button:hover{
+  background-color: #F59E0B;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: white; 
+  cursor: pointer;
+  transition: border-color 0.25s ease;
+}
+
+.complete-button{
+  background-color: #3aa2e3c2;
+  padding: 10px 20px;
+}
+.complete-button:hover{
+  background-color: rgb(4, 149, 31);
+}
+.delete-button{
+  background-color: #065db4;
+  padding: 10px 20px;
+}
+.delete-button:hover{
+  background-color: #b94109;
+}
+.move-up-button{
+  background-color: #065db4;
+  padding: 10px 20px;
+}
+.move-up-button:hover{
+  background-color: #4910ad;
+}
+.move-down-button{
+  background-color: #065db4;
+  padding: 10px 20px;
+}
+.move-down-button:hover{
+  background-color:#4910ad;
+}
+
+.task-list{
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  font-size: 2rem ;
+  font-weight: bold;
+  padding: 12px;
+  background-color: rgb(11, 144, 177);
+  margin-bottom: 20px;
+  border: 4.5px solid rgba(8, 35, 42, 0.198);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex-grow:1;
+  flex-shrink:1;
+  flex-basis:0%;
+} 
+.delete-button, .move-down-button, .move-up-button ,.complete-button{
+  padding: 5px 12px;
+  font-size:1.6rem;
+  margin-left: 10px;
+}
+/* .calendar{
+  width: 350px;
+  height:auto;
+  margin-left: 80px;
+  margin-top: 10px;
+
+  background-color: black;
+  color: black;
+
+} */
+ 
+/* .selected-date{
+  background-color: #6d2cbc;
+  color: white;
+  border: 2px solid hsla(0, 0%, 1%, 0.656) ;
+  border-radius: 9px;
+} */
