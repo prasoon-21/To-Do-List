@@ -1,9 +1,9 @@
 # 📝 Doozy - A To-Do List App
 
 A simple and minimalistic **To-Do List** application built with front-end technologies.  
+A full production ready website for to-do-list.
 It allows users to manage daily tasks with features like adding, completing, deleting, and setting task priorities.
 
-> 🚫 This app **does not include a database** and **does not require user login**. All tasks are stored in memory (lost on page refresh).
 
 ---
 
@@ -31,7 +31,8 @@ It allows users to manage daily tasks with features like adding, completing, del
 - HTML
 - CSS
 - JavaScript
-- Framework: React 
+- Framework: React + Vite 
+- SupaBase DB
 
 ---
 
@@ -41,14 +42,6 @@ LINK : https://doozy-tudu.netlify.app/
 
 ---
 
-
----
-
-## ⚠️ Limitations
-
-- No data persistence — tasks are cleared on page refresh.
-- No user authentication or login system.
-
 ---
 
 ## 🛠️ Future Improvements
@@ -57,6 +50,5 @@ LINK : https://doozy-tudu.netlify.app/
 - Add due dates or tags for better task organization.
 - Add dark mode toggle.
 
----
-## 📂 Project Structure (Example)
+
 
