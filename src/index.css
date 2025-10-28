@@ -53,34 +53,18 @@ button {
   cursor: pointer;
   transition: border-color 0.25s ease;
 }
-
-.complete-button{
-  background-color: #3aa2e3c2;
-  padding: 10px 20px;
-}
 .complete-button:hover{
-  background-color: rgb(4, 149, 31);
+  background-color: rgb(173, 180, 194);
 }
-.delete-button{
-  background-color: #065db4;
-  padding: 10px 20px;
-}
+
 .delete-button:hover{
-  background-color: #b94109;
-}
-.move-up-button{
-  background-color: #065db4;
-  padding: 10px 20px;
+  background-color: #8f0a15;
 }
 .move-up-button:hover{
-  background-color: #4910ad;
-}
-.move-down-button{
-  background-color: #065db4;
-  padding: 10px 20px;
+  background-color: #5c3f8d;
 }
 .move-down-button:hover{
-  background-color:#4910ad;
+  background-color:#5c3f8d;
 }
 
 .task-list{
@@ -93,7 +77,7 @@ li{
   font-size: 2rem ;
   font-weight: bold;
   padding: 12px;
-  background-color: rgb(11, 144, 177);
+  background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
   border: 4.5px solid rgba(8, 35, 42, 0.198);
   border-radius: 12px;
